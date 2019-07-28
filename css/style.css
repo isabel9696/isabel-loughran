@@ -1,8 +1,4 @@
-@font-face
-    {
-    font-family:'Karla';
-    src: url(../fonts/Karla/Karla-Regular.ttf)format('truetype');
-}
+
 body
 {
     background-color: #fafbfb;
@@ -36,7 +32,8 @@ h1
 {
     font-size: 34px;
     color: #222427;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
 }
 
 ul
@@ -57,18 +54,21 @@ h5
 {
    color: #222427;
     font-size: 20px;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
     line-height: 1.4;
 }
 p
 {
     font-size: 14px;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
 }
 p a:hover
 {
     font-size: 14px;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
     color: #222427;
     text-decoration: underline;
     background-color: #ddd;
@@ -89,7 +89,8 @@ a:active
   width: 100%;
   display: block;
   transition: top 0.3s;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
     padding-top: 30px;
     padding-left:30px;
     padding-right:30px;
@@ -109,7 +110,8 @@ a:active
   width: 100%;
   color: white;
   text-align: left;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
     background-color: #ddd;
     padding-top: 30px;
     padding-bottom: 15px;
@@ -157,7 +159,8 @@ a:active
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
     line-height: 0.2;
     
     
@@ -173,7 +176,8 @@ a:active
 .insta {
   
   color: white;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
     line-height: 0.2;
     
 }
@@ -186,7 +190,8 @@ a:active
 {
     font-size: 45px;
     color: #222427;
-    font-family:'Karla';
+    
+    font-family: 'Karla', sans-serif;
 }
     .interactionsep
     {
