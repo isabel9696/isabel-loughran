@@ -3,6 +3,26 @@ body
 {
     background-color: #fafbfb;
 }
+
+
+
+.slider1{
+    background-image: url(../images/Carousel/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider2{
+    background-image: url(../images/Carousel/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider3{
+    background-image: url(../images/Carousel/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .toppadding
 {
     margin-top: 45px;
@@ -45,7 +65,7 @@ ul
 li
 {
     color: #222427;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 0px;
     margin-left: 0px;
 }
@@ -53,7 +73,7 @@ li
 h5
 {
    color: #222427;
-    font-size: 20px;
+    font-size: 18px;
     
     font-family: 'Karla', sans-serif;
     line-height: 1.4;

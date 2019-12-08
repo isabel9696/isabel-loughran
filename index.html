@@ -46,7 +46,40 @@
 
 </div>
     
-    </div> 
+    </div>
+    
+    <!--  slider at top  -->
+    
+    
+<style>
+.mySlides {display:none; width:100vw; max-height: 110vh;}
+</style>
+
+<div class="w3-content w3-section">
+    <div class="mySlides slider1"  style="width:100%; height:110vh;"></div>
+      <div class="mySlides slider2"  style="width:100%; height:110vh;"></div>
+      <div class="mySlides slider3"  style="width:100%; height:110vh;"></div>
+   
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+    
+    
     <div class="container-fluid">
   <div class="row navblock">
        <div class="col-12">
@@ -57,6 +90,14 @@
    
   </div>
 </div>
+    
+
+    
+    
+    
+<!--    start of projects-->
+    
+    
     
       <div class="container-fluid toppadding" id="section2">
   <div class="row toppadding">
