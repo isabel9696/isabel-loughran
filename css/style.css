@@ -4,7 +4,12 @@ body
     background-color: #fafbfb;
 }
 
-
+.right-align
+{
+    text-align: right;
+    border: 10px;
+    height: 30px;
+}
 
 .slider1{
     background-image: url(../images/Carousel/4.jpg);
@@ -24,6 +29,17 @@ body
 
 
 .toppadding
+{
+    margin-top: 45px;
+   margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 30px;
+    
+    
+
+}
+
+.botpadding
 {
     margin-top: 45px;
    margin-right: 0px;
@@ -56,6 +72,15 @@ h1
     font-family: 'Karla', sans-serif;
 }
 
+h2
+{
+    font-size: 26px;
+    color: #222427;
+    line-height: 1.4;
+    
+    font-family: 'Karla', sans-serif;
+}
+
 ul
 {
     list-style: none;
@@ -68,6 +93,33 @@ li
     font-size: 18px;
     padding-left: 0px;
     margin-left: 0px;
+    
+}
+
+a
+{
+   
+}
+
+a.hover
+{
+    text-decoration: underline;
+     font-size: 14px;
+    
+    font-family: 'Karla', sans-serif;
+    color: #222427;
+    text-decoration: underline;
+    background-color: #ddd;
+}
+h5 a.hover
+{
+    text-decoration: underline;
+     font-size: 14px;
+    
+    font-family: 'Karla', sans-serif;
+    color: #222427;
+    text-decoration: underline;
+    background-color: #ddd;
 }
 
 h5
@@ -224,6 +276,7 @@ a:active
     .pieces
 {
     display: block;
+    
 }
     
 }
