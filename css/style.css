@@ -11,6 +11,33 @@ body
     height: 30px;
 }
 
+
+.btn
+{
+    padding-top: 16px;
+    color: black;
+    background-color: #F0B09E;
+    border-radius: 100px;
+   
+    
+}
+.btn:hover
+{
+    padding-top: 16px;
+/*    background-color: #B3B85C;*/
+    background-color: #CC9687;
+    text-decoration: none;
+    outline-color: black;
+    outline-width: 1px;
+    outline-style: solid;
+}
+
+.white
+{
+    text-decoration: none;
+    color: black;
+}
+
 .slider1{
     background-image: url(../images/Carousel/4.jpg);
     background-repeat: no-repeat;
@@ -38,7 +65,10 @@ body
     
 
 }
-
+a:hover
+{
+    text-decoration: none;
+}
 .botpadding
 {
     margin-top: 45px;
@@ -49,6 +79,13 @@ body
     
 
 }
+
+    .bot-mob-padding
+{
+    padding-bottom: 60px;
+}
+
+
 .name
 {
     
@@ -96,30 +133,29 @@ li
     
 }
 
-a
-{
-   
-}
 
-a.hover
+
+/*
+a:hover
 {
     text-decoration: underline;
-     font-size: 14px;
+     
     
     font-family: 'Karla', sans-serif;
     color: #222427;
     text-decoration: underline;
     background-color: #ddd;
 }
-h5 a.hover
+*/
+h5 a:hover
 {
-    text-decoration: underline;
-     font-size: 14px;
+    color: #C27C65;
+    
     
     font-family: 'Karla', sans-serif;
     color: #222427;
     text-decoration: underline;
-    background-color: #ddd;
+    
 }
 
 h5
@@ -143,24 +179,27 @@ p a:hover
     font-family: 'Karla', sans-serif;
     color: #222427;
     text-decoration: underline;
-    background-color: #ddd;
+    
 }
 a
 {
     color: #222427;
+    
 }
 a:active
 {
     color: #222427;
-    text-decoration: underline;
+   
 }
+
+
 #navbar {
  z-index: 1000;
   position: fixed;
   top: 0;
   width: 100%;
   display: block;
-  transition: top 0.3s;
+  transition: top 0.4s;
     
     font-family: 'Karla', sans-serif;
     padding-top: 16px;
@@ -168,10 +207,18 @@ a:active
     padding-right:30px;
 }
 
+.navlist-mob
+{
+    line-height: 33px;
+    text-align: right;
+    top: 0px;
+       
+}
 
 
 #navbar a:hover {
-  background-color: #ddd;
+  text-decoration: underline;
+   
   color: #222427;
 }
 
@@ -194,10 +241,7 @@ a:active
    background-color: #fafbfb;
   color: #222427; 
 }
-.white
-{
-    color: #fafbfb;;
-}
+
 
 .interactioncomp
     {
@@ -277,6 +321,11 @@ a:active
 {
     display: block;
     
+}
+    
+.navlist-mob
+{
+    line-height: 27px;
 }
     
 }
