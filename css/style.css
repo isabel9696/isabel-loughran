@@ -231,14 +231,14 @@ a:active
   text-align: left;
     
     font-family: 'Karla', sans-serif;
-    background-color: #ddd;
-    padding-top: 30px;
-    padding-bottom: 15px;
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 115px;
     padding-left: 0px;
 }
 .footer a:hover
 {
-   background-color: #fafbfb;
+   text-decoration: underline;
   color: #222427; 
 }
 
