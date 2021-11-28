@@ -38,18 +38,18 @@ body
     color: black;
 }
 
-.slider1{
+.slider2{
     background-image: url(../images/Carousel/4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.slider2{
-    background-image: url(../images/Carousel/5.jpg);
+.slider3{
+    background-image: url(../images/Carousel/If-your-head-was-here-CROP-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.slider3{
-    background-image: url(../images/Carousel/2.jpg);
+.slider1{
+    background-image: url(../images/Carousel/If-I-was-your-other-ear-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
