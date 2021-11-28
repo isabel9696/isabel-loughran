@@ -16,8 +16,11 @@ body
 {
     padding-top: 16px;
     color: black;
-    background-color: #EDD3BB;
+/*    background-color: #EDD3BB;*/
     border-radius: 100px;
+    outline-color: black;
+    outline-width: 1px;
+    outline-style: solid;
    
     
 }
@@ -25,7 +28,7 @@ body
 {
     padding-top: 16px;
 /*    background-color: #B3B85C;*/
-    background-color: #FFE3C9;
+    background-color: #F3F0EC;
     text-decoration: none;
     outline-color: black;
     outline-width: 1px;
